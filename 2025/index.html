@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元旦晚会节目单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #fff8f0, #ffe8d8);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(221, 158, 94, 0.2);
+            padding: 3rem 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* 顶部装饰 */
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #ff6b6b, #ffd166, #06d6a0);
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: #d63031;
+        }
+
+        .title h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+
+        .title .time {
+            font-size: 1.2rem;
+            color: #6c5ce7;
+            font-weight: 500;
+            background: #f0f8ff;
+            padding: 0.5rem 1.5rem;
+            border-radius: 30px;
+            display: inline-block;
+        }
+
+        /* 节目列表样式 */
+        .program-list {
+            margin-bottom: 3rem;
+        }
+
+        .program-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 1.2rem 1rem;
+            border-bottom: 1px dashed #f0e6d2;
+            transition: background-color 0.3s ease;
+        }
+
+        .program-item:last-child {
+            border-bottom: none;
+        }
+
+        .program-item:hover {
+            background-color: #fdfaf6;
+            border-radius: 12px;
+        }
+
+        .program-number {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #ff7675, #fd79a8);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .program-content {
+            flex: 1;
+        }
+
+        .program-performer {
+            font-size: 1.1rem;
+            color: #2d3436;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .program-name {
+            font-size: 1rem;
+            color: #636e72;
+            font-style: italic;
+        }
+
+        /* 工作人员样式 */
+        .staff-section {
+            margin-top: 3rem;
+            padding: 1.8rem;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        .staff-title {
+            font-size: 1.3rem;
+            color: #27ae60;
+            margin-bottom: 1.2rem;
+            font-weight: 600;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e8f5e9;
+        }
+
+        .staff-group {
+            margin-bottom: 1rem;
+        }
+
+        .staff-label {
+            font-size: 1rem;
+            color: #2d3436;
+            font-weight: 500;
+            display: inline-block;
+            width: 120px;
+        }
+
+        .staff-names {
+            font-size: 1rem;
+            color: #636e72;
+            display: inline-block;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 576px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            .title h1 {
+                font-size: 1.8rem;
+                letter-spacing: 2px;
+            }
+
+            .title .time {
+                font-size: 1rem;
+                padding: 0.4rem 1.2rem;
+            }
+
+            .program-number {
+                width: 30px;
+                height: 30px;
+                font-size: 0.9rem;
+                margin-right: 1rem;
+            }
+
+            .staff-label {
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题区域 -->
+        <div class="title">
+            <h1>元旦联欢晚会节目单</h1>
+            <div class="time">12.31 17:00-18:30</div>
+        </div>
+
+        <!-- 节目列表 -->
+        <div class="program-list">
+            <div class="program-item">
+                <div class="program-number">1</div>
+                <div class="program-content">
+                    <div class="program-performer">潘恩</div>
+                    <div class="program-name">歌曲《夜航星》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">2</div>
+                <div class="program-content">
+                    <div class="program-performer">董易昀</div>
+                    <div class="program-name">笑话《逗你玩》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">3</div>
+                <div class="program-content">
+                    <div class="program-performer">周润琪</div>
+                    <div class="program-name">歌曲《平凡之路》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">4</div>
+                <div class="program-content">
+                    <div class="program-performer">王梓帆、陈致霖、韩孟锦</div>
+                    <div class="program-name">朗诵《我要上学》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">5</div>
+                <div class="program-content">
+                    <div class="program-performer">吴老师</div>
+                    <div class="program-name">歌曲《世界赠予我的》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">6</div>
+                <div class="program-content">
+                    <div class="program-performer">信竞生</div>
+                    <div class="program-name">合唱</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">7</div>
+                <div class="program-content">
+                    <div class="program-performer">张楚泉</div>
+                    <div class="program-name">《实验室制取中子星》</div>
+                </div>
+            </div>
+
+            <div class="program-item">
+                <div class="program-number">8</div>
+                <div class="program-content">
+                    <div class="program-performer">全体参与</div>
+                    <div class="program-name">游戏若干</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 工作人员区域（已添加导演信息） -->
+        <div class="staff-section">
+            <div class="staff-title">晚会工作人员</div>
+
+            <div class="staff-group">
+                <span class="staff-label">主持人：</span>
+                <span class="staff-names">韩孟锦、刘泓源、徐子莫、孙鼎嘉</span>
+            </div>
+
+            <div class="staff-group">
+                <span class="staff-label">导演：</span>
+                <span class="staff-names">吴老师、周润琪</span>
+            </div>
+
+            <div class="staff-group">
+                <span class="staff-label">会场布置：</span>
+                <span class="staff-names">战文博、陈致霖</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
