@@ -4,13 +4,19 @@
   
   
   <entry>
-    <title>Hello World</title>
-    <link href="/2026/01/30/hello-world/"/>
-    <url>/2026/01/30/hello-world/</url>
+    <title>建站祭</title>
+    <link href="/2026/02/01/%E5%BB%BA%E7%AB%99%E7%A5%AD/"/>
+    <url>/2026/02/01/%E5%BB%BA%E7%AB%99%E7%A5%AD/</url>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start">Quick Start</h2><h3 id="Create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="科苑闲话">科苑闲话</h2><p>整了一个博客园，不定期更新。</p><p>刚开始可能会把我在其他地方写的文搬过来。</p><p>后期会写点东西，自娱自乐。</p><p>也会考虑转载。</p><h2 id="会在这记录的内容">会在这记录的内容</h2><ul><li>科技·工程</li><li>学习·文化课</li><li>算法·理论</li><li>生活·游记</li><li>个人记录</li><li>休闲·娱乐</li><li>闲话</li><li>题解·做题笔记</li></ul><p><s>没错，就是抄的洛谷的</s></p><p>也会开一些系列。</p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>个人记录</tag>
+      
+    </tags>
     
   </entry>
   
